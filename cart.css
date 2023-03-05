@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;  
+    max-width: 100%;
+}
+.h-100{
+    background-color: #e9b776;
+}
+nav{
+    background: #462109;
+    height: 80px;
+    width: 120%;
+    position: fixed;
+    top: 0px;
+    z-index: 1; /* override navbar*/
+}
+.home{
+    line-height: 80px;
+    padding: 0 50px;
+}
+button.btn-outline-warning:hover{
+    background-color: rgb(236, 144, 24);
+    color: rgb(240, 234, 228);
+}
