@@ -11,15 +11,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
     <script src="./topbtn.js"></script>
 </head>
 
 <body>
     <nav>
-        <label><a class="home" href="./index.html"><img src="./img/logo.jpg" style="width: 120px; height: 60px;" alt=""></a></label>
+        <label><a class="home" href="./index.html"><img src="./img/logo.jpg" style="width: 120px; height: 60px;"
+                    alt=""></a></label>
         <ul>
             <li>
                 <a class="active" href="./login.html">Login</a>
@@ -35,113 +35,273 @@
         </ul>
     </nav><br><br>
     <br>
-    <div class="content">  
+    <div class="content">
         <img class="banner" src="./img/banner.jpg" alt="">
         <br>
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Amandine</h5>
-                            <img src="./img/products/1280px-Amandine_cake.jpg" alt="Amandine">
-                            <p class="card-text">
-                                A chocolate layered cake filled with chocolate, caramel and fondant cream.
-                            </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+        <div class="hot-products">
+            <h1 class="product-title">Hot products</h1>
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/1280px-Amandine_cake.jpg" alt="Amandine">
+                <div class="card-body">
+                    <h5 class="card-title">Amandine cake</h5>
+                    <p class="card-text">A chocolate layered cake filled with chocolate, caramel and fondant cream.</p>
+                    <h5 class="price">Price: $0.40</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Angel cake</h5>
-                            <img src="./img/products/Homemade_Angel_Slice_Cake_Stock_Photo_(48754448236).jpg" alt="Angelcake">
-                                <p class="card-text">
-                                    A type of layered sponge cake, often garnished with cream and food coloring.
-                                </p>
-                                <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Angel_food_cake_with_strawberries_(4738859336).jpg" alt="Angel">
+                <div class="card-body">
+                    <h5 class="card-title">Angel strawberries cake</h5>
+                    <p class="card-text">A type of sponge cake made with egg whites, sugar, flour, vanilla, and a whipping agent such as cream of tartar.</p>
+                    <h5 class="price">Price: $0.90</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Angel food cake</h5>
-                            <img src="./img/products/Angel_food_cake_with_strawberries_(4738859336).jpg" alt="Angelfood">
-                            <p class="card-text">
-                                A type of sponge cake made with egg whites, sugar, flour, vanilla, and a whipping agent such as cream of tartar.
-                            </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Arany-galuska.jpg" alt="Arany">
+                <div class="card-body">
+                    <h5 class="card-title">Arany galuska</h5>
+                    <p class="card-text">A cake with yeasty dough and vanilla custard.</p>
+                    <h5 class="price">Price: $0.59</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Apple cake</h5>
-                            <img src="./img/products/Apple_cake_with_vanilla_ice_cream_2.jpg" alt="Pinkbox">
-                            <p class="card-text">
-                                A cake featuring apples, occasionally topped with caramel icing.
-                            </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Babka_świąteczna.jpg" alt="Babka">
+                <div class="card-body">
+                    <h5 class="card-title">Babka Wielkanocna</h5>
+                    <p class="card-text">An Easter cake with icing.</p>
+                    <h5 class="price">Price: $0.53</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Applesauce cake</h5>
-                            <img src="./img/products/Applesauce_cake.jpg" alt="Applesauce">
-                            <p class="card-text">
-                                A cake that is prepared using applesauce, flour, and sugar as primary ingredients.
-                            </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Chocolate_Stout_Cake.jpg" alt="Beercake">
+                <div class="card-body">
+                    <h5 class="card-title">Beer cake</h5>
+                    <p class="card-text">Any cake prepared with beer as a main ingredient; pictured is a chocolate bundt cake infused with stout beer.</p>
+                        <h5 class="price">Price: $0.61</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Aranygaluska</h5>
-                            <img src="./img/products/Arany-galuska.jpg" alt="Aranygaluska">
-                            <p class="card-text">
-                                A cake with yeasty dough and vanilla custard.
-                            </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Homemade_Angel_Slice_Cake_Stock_Photo_(48754448236).jpg" alt="Angelcake">
+                <div class="card-body">
+                    <h5 class="card-title">Angel cake</h5>
+                    <p class="card-text">A type of layered sponge cake, often garnished with cream and food coloring.</p>
+                        <h5 class="price">Price: $0.46</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Beer cake</h5>
-                            <img src="./img/products/Chocolate_Stout_Cake.jpg" alt="Beercake">
-                            <p class="card-text">
-                                A cake prepared with avocado as a primary ingredient.
-                            </p>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Banh_Bo_Nuong.jpg" alt="Banhbo">
+                <div class="card-body">
+                    <h5 class="card-title">Banh Bo</h5>
+                    <p class="card-text">A spongey cake with honeycomb-like structures, typically made with coconut milk, rice flour, water and sugar.</p>
+                        <h5 class="price">Price: $0.85</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
                 </div>
             </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Bara_Brith_(3320696816).jpg" alt="Barabrith">
+                <div class="card-body">
+                    <h5 class="card-title">Bara brith</h5>
+                    <p class="card-text">A Welsh tea bread flavored with raisins, currants and candied peel.</p>
+                        <h5 class="price">Price: $0.57</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/BallokumeShqiptare.jpg" alt="Ballokume">
+                <div class="card-body">
+                    <h5 class="card-title">Ballokume</h5>
+                    <p class="card-text">	A cake made with corn flour, butter, sugar, and vanilla.</p>
+                        <h5 class="price">Price: $0.90</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/1280px-Bolo_de_Mel.jfif" alt="Bolo">
+                <div class="card-body">
+                    <h5 class="card-title">Bolo de mel</h5>
+                    <p class="card-text">	A sweet, heavy cake made with molasses or honey, often with walnuts and almonds. The name translates to "honey cake".</p>
+                        <h5 class="price">Price: $0.94</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="recentproducts">
+        <h1 class="product-title">Recent products</h1>
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/1280px-Amandine_cake.jpg" alt="Amandine">
+                <div class="card-body">
+                    <h5 class="card-title">Amandine cake</h5>
+                    <p class="card-text">A chocolate layered cake filled with chocolate, caramel and fondant cream.</p>
+                    <h5 class="price">Price: $0.40</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Angel_food_cake_with_strawberries_(4738859336).jpg" alt="Angel">
+                <div class="card-body">
+                    <h5 class="card-title">Angel strawberries cake</h5>
+                    <p class="card-text">A type of sponge cake made with egg whites, sugar, flour, vanilla, and a whipping agent such as cream of tartar.</p>
+                    <h5 class="price">Price: $0.90</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Arany-galuska.jpg" alt="Arany">
+                <div class="card-body">
+                    <h5 class="card-title">Arany galuska</h5>
+                    <p class="card-text">A cake with yeasty dough and vanilla custard.</p>
+                    <h5 class="price">Price: $0.59</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Babka_świąteczna.jpg" alt="Babka">
+                <div class="card-body">
+                    <h5 class="card-title">Babka Wielkanocna</h5>
+                    <p class="card-text">An Easter cake with icing.</p>
+                    <h5 class="price">Price: $0.53</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Chocolate_Stout_Cake.jpg" alt="Beercake">
+                <div class="card-body">
+                    <h5 class="card-title">Beer cake</h5>
+                    <p class="card-text">Any cake prepared with beer as a main ingredient; pictured is a chocolate bundt cake infused with stout beer.</p>
+                        <h5 class="price">Price: $0.61</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Homemade_Angel_Slice_Cake_Stock_Photo_(48754448236).jpg" alt="Angelcake">
+                <div class="card-body">
+                    <h5 class="card-title">Angel cake</h5>
+                    <p class="card-text">A type of layered sponge cake, often garnished with cream and food coloring.</p>
+                        <h5 class="price">Price: $0.46</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Banh_Bo_Nuong.jpg" alt="Banhbo">
+                <div class="card-body">
+                    <h5 class="card-title">Banh Bo</h5>
+                    <p class="card-text">A spongey cake with honeycomb-like structures, typically made with coconut milk, rice flour, water and sugar.</p>
+                        <h5 class="price">Price: $0.85</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Bara_Brith_(3320696816).jpg" alt="Barabrith">
+                <div class="card-body">
+                    <h5 class="card-title">Bara brith</h5>
+                    <p class="card-text">A Welsh tea bread flavored with raisins, currants and candied peel.</p>
+                        <h5 class="price">Price: $0.57</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/BallokumeShqiptare.jpg" alt="Ballokume">
+                <div class="card-body">
+                    <h5 class="card-title">Ballokume</h5>
+                    <p class="card-text">	A cake made with corn flour, butter, sugar, and vanilla.</p>
+                        <h5 class="price">Price: $0.90</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/1280px-Bolo_de_Mel.jfif" alt="Bolo">
+                <div class="card-body">
+                    <h5 class="card-title">Bolo de mel</h5>
+                    <p class="card-text">	A sweet, heavy cake made with molasses or honey, often with walnuts and almonds. The name translates to "honey cake".</p>
+                        <h5 class="price">Price: $0.94</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Victoria sponge cake.jpg" alt="Victoria">
+                <div class="card-body">
+                    <h5 class="card-title">Victoria sponge cake</h5>
+                    <p class="card-text">	A cake typically consisting of jam and whipped double cream or vanilla cream sandwiched between two sponge cakes.</p>
+                        <h5 class="price">Price: $0.33</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Apple_Stack_Cake.jpg" alt="Apple_Stack">
+                <div class="card-body">
+                    <h5 class="card-title">Apple Stack</h5>
+                    <p class="card-text">	A stack of cakes made with molasses and layered with some form of apple filling.</p>
+                        <h5 class="price">Price: $0.29</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/Strawberry-cake.jpg" alt="Strawberry">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry cake</h5>
+                    <p class="card-text">	A cake that uses strawberry as a primary ingredient.</p>
+                        <h5 class="price">Price: $0.83</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/6._Wingko_Babat_3.jpg" alt="Wingko">
+                <div class="card-body">
+                    <h5 class="card-title">Wingko Babat</h5>
+                    <p class="card-text">	A traditional pancake made mainly of coconut.</p>
+                        <h5 class="price">Price: $0.17</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./img/products/1280px-Rose's_cake.jpg" alt="Torta">
+                <div class="card-body">
+                    <h5 class="card-title">Torta delle rose</h5>
+                    <p class="card-text">		A Mantuan and Brescian cake that is made with leavened dough rich in butter and sugar.</p>
+                        <h5 class="price">Price: $0.86</h5>
+                    <a href="./cart.html" class="btn btn-primary">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 <footer>
     <p class="copyright">Tran Minh Khoi - GCH18513</p>
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
 </footer>
+
 </html>

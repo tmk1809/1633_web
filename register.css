@@ -1,6 +1,21 @@
 .vh-100{
     background-color: #e9b776;
 }
+nav{
+    background: #462109;
+    height: 80px;
+    width: 120%;
+    position: fixed;
+    top: 0px;
+    z-index: 1; /* override navbar*/
+}
+.home{
+    line-height: 80px;
+    padding: 0 50px;
+}
+img{
+    border-radius: 5px;
+}
 .mb-0{
     font-size: 15px;
 }
@@ -8,5 +23,8 @@
     background-color: #ac6b17;
 }
 .btn.btn.btn-primary:hover{
+    background-color: #d18725;
+}
+.btn.btn-primary:active{
     background-color: #d18725;
 }

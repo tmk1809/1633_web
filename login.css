@@ -28,6 +28,9 @@ nav{
     line-height: 80px;
     padding: 0 50px;
 }
+img{
+    border-radius: 5px;
+}
 .form-outline{
     background-color: azure;
 }
